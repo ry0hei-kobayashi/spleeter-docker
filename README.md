@@ -15,7 +15,7 @@ $ docker build -t spleeter --build-arg FILENAME=hoge \\
                            --build-arg IP=hoge \\  
                            --build-arg PASSWD=hoge  
                           
-About arg setting example. In case of input file name is song.wav.
+About arg setting example. In case of input file name is song.wav.  
 ・Set your input FILENAME and EXT.
 FILENAME=song  
 EXT=wav  
