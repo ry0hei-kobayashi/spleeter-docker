@@ -23,5 +23,5 @@ RUN spleeter separate -p spleeter:${NUMSTEMS}stems -o ${FILENAME} /spleeter/${FI
 ARG USERNAME
 ARG IP
 ARG PASSWD
-RUN sshpass -p "${PASSWD}" scp -r -oStrictHostKeyChecking=no /${FILENAME}/* ${USERNAME}@${IP}:~/spleeter-docker/outputs/
+RUN sshpass -p "${PASSWD}" scp -r -oStrictHostKeyChecking=no /${FILENAME}/ ${USERNAME}@${IP}:~/spleeter-docker/outputs/
 
