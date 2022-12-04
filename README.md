@@ -1,6 +1,6 @@
 # spleeter-docker
 
-This repository has spleeter{https://github.com/deezer/spleeter}. You can try this without broken your local environment.
+This repository has spleeter's Dockerfile {https://github.com/deezer/spleeter}. You can try this without broken your local environment.
 If you enter a your audio file, it will copy the output results to your local PC. Operation was confirmed with Ubuntu20.04 and Docker20.10.21.
 
 How to use.
