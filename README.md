@@ -29,5 +29,6 @@ IP=192.168.x.x
 ・PASSWD is your local machines password.  
 PASSWD=xxxxxxxx  
 
-(USERNAME,IP,PASSWD　are used for scp command.) 
-
+USERNAME,IP,PASSWD are used for scp command.
+If you have some probolem, please try rebuild with no cache.
+Please add --no-cache option.
